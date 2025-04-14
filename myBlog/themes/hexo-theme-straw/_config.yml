@@ -18,7 +18,7 @@ function: # 功能开关，可选值（true,false）
 # 附加图标库 用于自定义字体 www.iconfont.cn 登录->创建项目->添加图标->获取链接
 iconlib: //at.alicdn.com/t/font_2421060_8z08qcz5sq3.css # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
 
-searchType: local   #可选 local本地 web 网址
+searchType: local #可选 local本地 web 网址
 search: https://www.google.com/search?q= # https://www.google.com/search?q={你的博客链接}  #当searchType为web时可用
 
 cdn: # 这里可以修改站点使用的库的CDN
@@ -38,7 +38,7 @@ menu:
   文章归档:
     - /archives.html
     - icon-hanbao1
-  关于糖糖:
+  关于作者:
     - /about.html
     - icon-jiubei1
   我的朋友:
@@ -49,48 +49,47 @@ menu:
     - icon-tangguo
 # 侧边模块
 widgets:
-- search
-- social
-- category
-- tagcloud
-- archive #: widgetAchive
+  - search
+  - social
+  - category
+  - tagcloud
+  - archive #: widgetAchive
 #- recent_posts
 # - link #settings: widgetLink
 
-maxTagcloud: 0  # 0 表示不限制
+maxTagcloud: 0 # 0 表示不限制
 
 social:
   QQ:
-    - http://wpa.qq.com/msgrd?v=3&uin=2120252100&site=qq&menu=yes
+    - http://wpa.qq.com/msgrd?v=3&uin=764940240&site=qq&menu=yes
     - icon-QQ
     - rgb(64, 196, 255)
     - rgba(64, 196, 255, .1)
   mail:
-    - mailto:tangyuxian@vip.qq.com
+    - mailto:13281149003@163.com
     - icon-mail-fill
     - rgb(249,8,8)
     - rgba(249,8,8,.1)
   CSDN:
-    - https://blog.csdn.net/qq_40621378?type=blog
+    - https://blog.csdn.net/straw66?type=blog
     - icon-csdn
     - rgb(199,29,35)
     - rgba(199,29,35,.1)
-  博客园:
-    - https://www.cnblogs.com/lovetangyuxian/
-    - icon-bokeyuan
+  bilibili:
+    - https://space.bilibili.com/485849343?spm_id_from=333.788.0.0
+    - icon-bilibili
     - rgb(66, 214, 29)
     - rgba(66, 214, 29, .1)
   GitHub:
-    - https://github.com/tangyuxian/
+    - https://github.com/straw66/
     - icon-github
     - rgb(25, 23, 23)
     - rgba(25, 23, 23, .15)
   gitee:
-    - https://gitee.com/tangyuxian
+    - https://gitee.com/catalpa-leaf
     - icon-mayun
     - rgb(255, 255, 255)
     - rgb(199,29,35)
-
 
 site_verification: # 向搜索引擎验证你对站点的所有权，用于向搜索引擎提交 sitemap 和管理站点被搜索引擎收录的情况。
   google:
@@ -109,17 +108,17 @@ analytics: # 统计系统，目前支持 Google analytics.js 统计、Google Tag
 comment: valine # 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere,DiscussBot
 
 gitalk:
-  admin:  # 拥有对该repo进行操作的 GitHub username
-  owner:  # 持有该 repo 的 GitHub username
-  repo:  # 存放评论的 issue 所在的 repo
-  clientID:  # GitHub Client ID
-  clientSecret:  # GitHub Client Secret
+  admin: # 拥有对该repo进行操作的 GitHub username
+  owner: # 持有该 repo 的 GitHub username
+  repo: # 存放评论的 issue 所在的 repo
+  clientID: # GitHub Client ID
+  clientSecret: # GitHub Client Secret
 
 gitment:
-  owner:  # 持有该 repo 的 GitHub username
-  repo:  # 存放评论的 issue 所在的 repo
-  clientID:  # GitHub Client ID
-  clientSecret:  # GitHub Client Secret
+  owner: # 持有该 repo 的 GitHub username
+  repo: # 存放评论的 issue 所在的 repo
+  clientID: # GitHub Client ID
+  clientSecret: # GitHub Client Secret
 
 valine:
   appId: r5zxC0st0DDjPA9auXzMV7HY-gzGzoHsz # leancloud application app id
@@ -157,22 +156,22 @@ copyright: '<strong>版权声明：</strong>本文采用 <a href="https://creati
 
 #achive widget behavior
 widgetAchive: #文章归档组件
-  archive_type: 'year' #按月展示还是按年展示
-  show_count: true  #是否展示数量
+  archive_type: "year" #按月展示还是按年展示
+  show_count: true #是否展示数量
 
 widgetLink: #链接组件
   - title: <title>
-    img : <img_path>
-    link : <url>
+    img: <img_path>
+    link: <url>
   - title: <title>
-    img : <img_path>
-    link : <url>
-sidebar: ''
-beian: '辽ICP备2021002341号'
+    img: <img_path>
+    link: <url>
+sidebar: ""
+beian: ""
 #  --------小埋主题 追加配置
 # Online daovoice 即时通讯插件(请到 http://dashboard.daovoice.io/ 申请key)
 daovoice:
-  enable: true  #是否启用
+  enable: true #是否启用
   app_id: 250cb4aa
 # 不蒜子访客统计
 busuanzi: true
@@ -190,4 +189,3 @@ qweather:
   dataColor: e67249
   borderRadius: 15
   key: f74d1e1690e6432d801e97fa2f05a162
-
