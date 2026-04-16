@@ -45,8 +45,10 @@
 
         <%- partial('_partial/_post/tag') %>
 
+    <% if (page.comments !== false) { %>
     <div class="nexmoe-post-footer">
         <%- partial('_partial/comment') %>
     </div>
+    <% } %>
 </div>
 
