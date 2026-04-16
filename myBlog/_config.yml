@@ -103,5 +103,5 @@ theme: hexo-theme-straw
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:straw66/straw66.github.io.git
+  repo: https://github.com/straw66/straw66.github.io.git
   branch: main
