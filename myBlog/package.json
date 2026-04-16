@@ -3,10 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "new": "hexo new",
+    "new:post": "hexo new post",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "preview": "hexo clean && hexo server",
+    "publish": "hexo clean && hexo generate && hexo deploy"
   },
   "hexo": {
     "version": "7.3.0"
