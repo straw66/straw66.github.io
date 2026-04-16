@@ -2,7 +2,7 @@
 <script src='<%- theme.cdn.valine.js %>'></script>
 <script>
     // 使用方法 https://valine.js.org/quickstart.html
-    const commentPath = window.location.hostname + window.location.pathname;
+    const commentPath = 'straw66-v2:' + window.location.hostname + window.location.pathname;
     new Valine({
         el: '.valine',
         appId: '<%= theme.valine.appId %>',
